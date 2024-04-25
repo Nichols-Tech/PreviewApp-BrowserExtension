@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Preview</title>
+  <style>
+    body {
+      background-color: #333333;
+      color: #f0f0f0;
+      padding: 10px;
+      width: 500px;
+      height: 315px;
+    }
+    input, textarea {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 5px;
+      border: none;
+      border-radius: 5px;
+    }
+    button {
+      padding: 5px 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #9370DB;
+      color: #f0f0f0;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h3>To:</h3>
+  <input id="toField" type="text">
+  <h3>Subject:</h3>
+  <input id="subjectField" type="text">
+  <h3>Message:</h3>
+  <textarea id="messageField" rows="4"></textarea><br>
+  <button id="sendButton">Send</button>
+  <script src="popup.js"></script>
+</body>
+</html>
